@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+    <style>
+        .image {
+            position: relative;
+            display: inline-block;
+        }
+
+        .container {
+            width: 360;
+            height: 640;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+        .text h1 {
+            
+            color: aliceblue;
+            font-size: 45px;
+        }
+        button {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            margin: 25px;           
+            border: 2px solid #fff;
+            border-radius: 5px;
+        }
+        a{
+            color: #fff; 
+            text-decoration: none;
+            font-size: 25px;  
+            font-family: Arial, sans-serif; 
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="flappybirdbg.png" alt="flappybird">
+        </div>
+        <div class="text">
+            <h1>Flappy Bird</h1>
+            <button type="button"><a href="game.html">Play</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
